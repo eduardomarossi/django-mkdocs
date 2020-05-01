@@ -1,0 +1,15 @@
+site_name: My Docs
+
+docs_dir: 'mkdocs'
+site_dir: 'docs/static/mkdocs_build'
+
+nav:
+  - Home: index.md
+
+plugins:
+  - doxygen:
+      tryclone: yes
+      packages:
+        - minilab:
+            url: https://github.com/eduardomarossi/minilab
+ 
