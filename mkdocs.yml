@@ -10,6 +10,6 @@ plugins:
   - doxygen:
       tryclone: yes
       packages:
-        - minilab:
-            url: https://github.com/eduardomarossi/minilab
+        - your_project:
+            url: your_repo
  
